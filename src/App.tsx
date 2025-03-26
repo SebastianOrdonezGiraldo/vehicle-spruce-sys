@@ -11,6 +11,7 @@ import PendingServices from "./pages/PendingServices";
 import Employees from "./pages/Employees";
 import Reports from "./pages/Reports";
 import Inventory from "./pages/Inventory";
+import Settings from "./pages/Settings";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -29,6 +30,7 @@ const App = () => (
             <Route path="/employees" element={<Employees />} />
             <Route path="/inventory" element={<Inventory />} />
             <Route path="/reports" element={<Reports />} />
+            <Route path="/settings" element={<Settings />} />
             {/* Add other routes here */}
           </Route>
           <Route path="*" element={<NotFound />} />
