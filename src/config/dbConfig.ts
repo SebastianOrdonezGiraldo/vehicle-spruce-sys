@@ -8,8 +8,3 @@ export const dbConfig = {
   port: 3306
 };
 
-// Instructions for connecting to the database:
-// 1. Start XAMPP Control Panel
-// 2. Start Apache and MySQL services
-// 3. Open http://localhost/phpmyadmin in your browser
-// 4. Import the SQL file from src/database/vehicle_spruce_system.sql
