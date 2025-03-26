@@ -10,6 +10,7 @@ import VehicleRegistration from "./pages/VehicleRegistration";
 import PendingServices from "./pages/PendingServices";
 import Employees from "./pages/Employees";
 import Reports from "./pages/Reports";
+import Inventory from "./pages/Inventory";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -26,6 +27,7 @@ const App = () => (
             <Route path="/vehicle-registration" element={<VehicleRegistration />} />
             <Route path="/pending-services" element={<PendingServices />} />
             <Route path="/employees" element={<Employees />} />
+            <Route path="/inventory" element={<Inventory />} />
             <Route path="/reports" element={<Reports />} />
             {/* Add other routes here */}
           </Route>
